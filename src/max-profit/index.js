@@ -9,10 +9,9 @@ const maxProfit = (array) => {
   return maxProfit;
 };
 
-//Diễn giải
 /**
  * @params is a freely numbers array
  * Check array available and cannot empty then continue implement under logic
- * Loop by i and check array [i]th - array [i-1]th greater than zero. and assign this value into 
+ * Loop by i and check array [i]th - array [i-1]th greater than zero. and assign this value into
  * maxProfit and end of loop. we need return variable maxProfit.
  */
