@@ -2,8 +2,9 @@ const maxProfit = (array) => {
   if (array.length === 0) return 0;
   let maxProfit = 0;
   for (let i = 1; i < array.length; i++) {
-    if (array[i] - array[i - 1] > 0) {
-      maxProfit += array[i] - array[i - 1];
+    const profit = array[i] - array[i - 1]
+    if (profit > 0) {
+      maxProfit += profit;
     }
   }
   return maxProfit;
